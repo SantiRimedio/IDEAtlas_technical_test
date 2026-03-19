@@ -68,6 +68,12 @@ PATCHES_TRAIN_DIR = PATCHES_DIR / "train"
 PATCHES_VAL_DIR = PATCHES_DIR / "val"
 PATCHES_TEST_DIR = PATCHES_DIR / "test"
 
+# Large grid patches (full AOI, no undersampling, ~8 000 patches)
+PATCHES_LARGE_DIR = DATA_DIR / "patches_large"
+PATCHES_LARGE_TRAIN_DIR = PATCHES_LARGE_DIR / "train"
+PATCHES_LARGE_VAL_DIR = PATCHES_LARGE_DIR / "val"
+PATCHES_LARGE_TEST_DIR = PATCHES_LARGE_DIR / "test"
+
 # ============================================================================
 # MODEL PATHS
 # ============================================================================
