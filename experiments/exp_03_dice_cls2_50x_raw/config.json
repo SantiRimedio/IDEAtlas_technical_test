@@ -1,0 +1,20 @@
+{
+  "name": "dice_cls2_50x_raw",
+  "use_dice": true,
+  "use_focal": false,
+  "focal_alpha": 0.85,
+  "focal_gamma": 2.5,
+  "dice_focal_ratio": 3.0,
+  "class2_weight_multiplier": 50.0,
+  "normalize_class_weights": false,
+  "epochs": 40,
+  "lr": 0.0001,
+  "dropout_rate": 0.3,
+  "batch_size": 8,
+  "early_stopping_patience": 12,
+  "reduce_lr_patience": 6,
+  "monitor": "val_class2_recall",
+  "monitor_mode": "max",
+  "block": "b",
+  "notes": "Pure dice, raw 50x class-2 boost (cls2_weight\u2248670), val_class2_recall monitor"
+}

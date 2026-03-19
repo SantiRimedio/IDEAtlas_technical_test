@@ -1,0 +1,22 @@
+{
+  "name": "pure_dice_den3",
+  "use_dice": true,
+  "use_focal": false,
+  "focal_alpha": 0.85,
+  "focal_gamma": 2.5,
+  "dice_focal_ratio": 3.0,
+  "class2_weight_multiplier": 1.0,
+  "normalize_class_weights": true,
+  "epochs": 40,
+  "lr": 0.0001,
+  "dropout_rate": 0.3,
+  "batch_size": 8,
+  "early_stopping_patience": 12,
+  "reduce_lr_patience": 6,
+  "monitor": "val_f1",
+  "monitor_mode": "max",
+  "den_prefix": "DEN3",
+  "den_bands": 3,
+  "block": "c",
+  "notes": "Best 1-band loss config (pure_dice A2) applied to 3-band DEN3 \u2014 isolates DEN3 contribution"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "dice_recall_monitor",
+  "use_dice": true,
+  "use_focal": false,
+  "focal_alpha": 0.85,
+  "focal_gamma": 2.5,
+  "dice_focal_ratio": 3.0,
+  "class2_weight_multiplier": 1.0,
+  "normalize_class_weights": true,
+  "epochs": 40,
+  "lr": 0.0001,
+  "dropout_rate": 0.3,
+  "batch_size": 8,
+  "early_stopping_patience": 12,
+  "reduce_lr_patience": 6,
+  "monitor": "val_class2_recall",
+  "monitor_mode": "max",
+  "block": "b",
+  "notes": "Pure dice, same weights as A2 \u2014 only monitoring changes to val_class2_recall"
+}
