@@ -1,0 +1,27 @@
+# Large data (satellite imagery, patches, predictions)
+datasets/
+*.tif
+*.tiff
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary
+temp_tiles/
+*.tmp
