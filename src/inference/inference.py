@@ -237,7 +237,7 @@ from tqdm import tqdm
 import rasterio as rio
 from glob import glob
 import geopandas as gpd
-from data_utils import *
+from src.training.data_utils import *
 from tqdm import tqdm
 from rasterio.mask import mask
 
